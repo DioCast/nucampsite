@@ -30,8 +30,9 @@
                     <h2>a better way to camp</h2>
                 </div>
                 <div class="col-md-4 col-xl-2 mt-4">
-                    <a class="btn btn-info btn-lg text-nowrap" role="button" data-toggle="modal"
-                        data-target="#reserveModal">Reserve Campsite</a>
+                    <a class="btn btn-info btn-lg text-nowrap" role="button" id="reserveButton">Reserve Campsite</a>
+                    <!-- <a class="btn btn-info btn-lg text-nowrap" role="button" data-toggle="modal"
+                        data-target="#reserveModal">Reserve Campsite</a> -->
                     <!-- <a class="btn btn-info btn-lg text-nowrap" href="#reserveForm" data-toggle="tooltip"
                         data-placement="bottom" data-html="true"
                         title="Or call us at <br /><strong>1-206-555-1234</strong>">Reserve Campsite</a> -->
@@ -43,7 +44,7 @@
     <div id="reserveModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header bg-info text-white">
+                <div class="modal-header">
                     <h3 class="modal-title">Reserve a Campsite</h3>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
@@ -114,9 +115,12 @@
                                 class="fa fa-address-card fa-lg"></i> Contact</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <a role="button" id="loginButton">
                         <i class="fa fa-sign-in"></i>Login
                     </a>
+                    <!-- <a role="button" data-toggle="modal" data-target="#loginModal">
+                        <i class="fa fa-sign-in"></i>Login
+                    </a> -->
                 </span>
             </div>
         </div>
